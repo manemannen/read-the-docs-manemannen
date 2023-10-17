@@ -1,22 +1,37 @@
-Welcome to Lumache's documentation!
-===================================
+.. _topics-index:
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+==============================
+u-locate |version| documentation
+==============================
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-.. note::
+.. _u-locate-products:
 
-   This project is under active development.
-
-Contents
---------
+u-locate products
+=================
 
 .. toctree::
+   :caption: u-locate products
+   :hidden:
 
-   usage
-   api
+   products/u-locateEngine
+   products/u-locateAnchor
+
+:doc:`products/u-locateEngine`
+    Understand what Scrapy is and how it can help you.
+
+:doc:`products/u-locateAnchor`
+    Get Scrapy installed on your computer.
+
+
+.. _getting-help:
+
+Getting help
+============
