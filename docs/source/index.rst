@@ -35,3 +35,5 @@ u-locate products
 
 Getting help
 ============
+.. _u-blox support portel: https://portal.u-blox.com/s/
+.. _u-blox web page: https://www.u-blox.com/
