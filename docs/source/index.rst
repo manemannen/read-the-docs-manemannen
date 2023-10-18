@@ -18,13 +18,13 @@ u-locate products
 
 .. toctree::
 
-   products/u-locateEngine
-   products/u-locateAnchor
+   u-locateEngine
+   u-locateAnchor
 
-:doc:`products/u-locateEngine`
+:doc:`u-locateEngine`
     Lorem ipsum dolor sit amet
 
-:doc:`products/u-locateAnchor`
+:doc:`u-locateAnchor`
     Lorem ipsum dolor sit amet
 
 
