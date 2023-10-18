@@ -1,8 +1,7 @@
 .. _topics-index:
 
-==============================
 u-locate |version| documentation
-==============================
+####################################
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
@@ -15,25 +14,23 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.
 .. _u-locate-products:
 
 u-locate products
-=================
+****************************
 
 .. toctree::
-   :caption: u-locate products
-   :hidden:
 
    products/u-locateEngine
    products/u-locateAnchor
 
 :doc:`products/u-locateEngine`
-    Understand what Scrapy is and how it can help you.
+    Lorem ipsum dolor sit amet
 
 :doc:`products/u-locateAnchor`
-    Get Scrapy installed on your computer.
+    Lorem ipsum dolor sit amet
 
 
 .. _getting-help:
 
 Getting help
-============
-.. _u-blox support portel: https://portal.u-blox.com/s/
+****************************
+.. _u-blox support portal: https://portal.u-blox.com/s/
 .. _u-blox web page: https://www.u-blox.com/
