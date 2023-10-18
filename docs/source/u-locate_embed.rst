@@ -1,8 +1,5 @@
-u-locateEngine
+u-locateEmbed
 ##############
-
-.. autosummary::
-   :toctree: generated
 
 Heading 2
 **************
