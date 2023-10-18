@@ -13,52 +13,6 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 .. toctree::
     :maxdepth: 1
-    :titlesonly:
-
-.. _introduction:
-
-Introduction
-****************************
-
-Getting started
-****************************
-
-Software
-****************************
-
-:doc:`u-locateEngine`
-    Lorem ipsum dolor sit amet
-
-:doc:`u-locateEmbed`
-    Lorem ipsum dolor sit amet
-
-Hardware
-****************************
-
-:doc:`u-locateAnchor`
-    Lorem ipsum dolor sit amet
-
-:doc:`ant-b10`
-    Lorem ipsum dolor sit amet
-
-:doc:`ant-b11`
-    Lorem ipsum dolor sit amet
-
-:doc:`tags`
-    Lorem ipsum dolor sit amet
-
-Evaluation kits
-****************************
-
-Support tools
-****************************
-
-Deployment
-****************************
-
-u-locate products
-****************************
-
 
 
 .. _getting-help:
@@ -66,8 +20,8 @@ u-locate products
 Getting help
 ****************************
 
-`u-blox support portal`_
-`u-blox support portal`_
+X `u-blox support portal`_
+Y `u-blox support portal`_
 
 .. _u-blox support portal: https://portal.u-blox.com/s/
 .. _u-blox support portal: https://www.u-blox.com/
