@@ -2,6 +2,8 @@ Software
 ##############
 
 .. toctree::
+    :maxdepth: 1
+    :hidden:
 
    u-locate_engine
    u-locate_embed
