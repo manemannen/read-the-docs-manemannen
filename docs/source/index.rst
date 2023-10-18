@@ -12,7 +12,8 @@ nulla pariatur. Excepteur sint occaecat cupidatat non proident,
 sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
+    :hidden:
     
     introduction
     software
