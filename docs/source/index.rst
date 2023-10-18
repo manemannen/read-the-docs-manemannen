@@ -13,6 +13,9 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 .. toctree::
     :maxdepth: 1
+    
+    introduction
+    software
 
 
 .. _getting-help:
