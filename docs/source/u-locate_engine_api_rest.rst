@@ -10,41 +10,56 @@ nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
 in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
 nulla pariatur.
 
-Downloading and installing
+APIs
 ********************************************************
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-nulla pariatur.
 
-Clone repo
-========================================================
-First, you start by cloning the repository that contains the 
-docker-compose.yml. Type to following from the host machine::
+.. http:get:: /users/(int:user_id)/posts/(tag)
 
-   clone https://github.com/.../u-locate-engine.git
+   The posts tagged with `tag` that the user (`user_id`) wrote.
 
-Install Docker engine
-========================================================
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+   **Example request**:
 
-Additional configuration
-========================================================
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+   .. sourcecode:: http
 
-Launch u-locateEngine
-========================================================
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      GET /users/123/posts/web HTTP/1.1
+      Host: example.com
+      Accept: application/json, text/javascript
 
-Configure u-locateEngine
-********************************************************
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+   **Example response**:
+
+   .. sourcecode:: http
+
+      HTTP/1.1 200 OK
+      Vary: Accept
+      Content-Type: text/javascript
+
+      [
+        {
+          "post_id": 12345,
+          "author_id": 123,
+          "tags": ["server", "web"],
+          "subject": "I tried Nginx"
+        },
+        {
+          "post_id": 12346,
+          "author_id": 123,
+          "tags": ["html5", "standards", "web"],
+          "subject": "We go to HTML 5"
+        }
+      ]
+
+   :query sort: one of ``hit``, ``created-at``
+   :query offset: offset number. default is 0
+   :query limit: limit number. default is 30
+   :reqheader Accept: the response content type depends on
+                      :mailheader:`Accept` header
+   :reqheader Authorization: optional OAuth token to authenticate
+   :resheader Content-Type: this depends on :mailheader:`Accept`
+                            header of request
+   :statuscode 200: no error
+   :statuscode 404: there's no user
+
+
 
 .. toctree::
     :maxdepth: 1
