@@ -16,13 +16,6 @@ sunt in culpa qui officia deserunt mollit anim id est laborum.
 u-locate products
 ****************************
 
-.. toctree::
-    :maxdepth: 1
-    :titlesonly:
-
-   u-locateEngine
-   u-locateAnchor
-
 :doc:`u-locateEngine`
     Lorem ipsum dolor sit amet
 
@@ -34,7 +27,9 @@ u-locate products
 
 Getting help
 ****************************
+
 u-blox support portal: `u-blox-support`_
+
 u-blox web page: `u-blox-web`_
 
 .. _u-blox-support: https://portal.u-blox.com/s/
