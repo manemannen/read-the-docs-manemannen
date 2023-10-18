@@ -12,19 +12,8 @@ nulla pariatur. Excepteur sint occaecat cupidatat non proident,
 sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     
     introduction
     software
 
-
-.. _getting-help:
-
-Getting help
-****************************
-
-X `u-blox support portal`_
-Y `u-blox support portal`_
-
-.. _u-blox support portal: https://portal.u-blox.com/s/
-.. _u-blox support portal: https://www.u-blox.com/
