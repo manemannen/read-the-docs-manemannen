@@ -3,6 +3,7 @@ Software
 
 .. toctree::
     :maxdepth: 1
+    :titlesonly:
     :hidden:
 
    u-locate_engine
