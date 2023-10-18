@@ -3,6 +3,18 @@
 u-locate |version| documentation
 ####################################
 
+.. toctree::
+    :maxdepth: 2
+    :hidden:
+    
+    introduction
+    software
+    hardware
+    evaluation_kits
+    support_tools
+    deployment
+    getting_help
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
 enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -23,15 +35,4 @@ in reprehenderit in voluptate velit esse cillum dolore eu fugiat
 nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
 sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-.. toctree::
-    :maxdepth: 2
-    :hidden:
-    
-    introduction
-    software
-    hardware
-    evaluation_kits
-    support_tools
-    deployment
-    getting_help
 
