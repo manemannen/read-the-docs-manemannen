@@ -17,6 +17,7 @@ u-locate products
 ****************************
 
 .. toctree::
+    :hidden:
 
    u-locateEngine
    u-locateAnchor
@@ -32,5 +33,5 @@ u-locate products
 
 Getting help
 ****************************
-.. _u-blox support portal: https://portal.u-blox.com/s/
-.. _u-blox web page: https://www.u-blox.com/
+`u-blox support portal: https://portal.u-blox.com/s/`_
+`u-blox web page: https://www.u-blox.com/`_
