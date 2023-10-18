@@ -11,10 +11,19 @@ in reprehenderit in voluptate velit esse cillum dolore eu fugiat
 nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
 sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+.. image:: images/u-locate.png
+   :width: 100 %
+   :align: left
+
 .. toctree::
     :maxdepth: 1
     :hidden:
     
     introduction
     software
+    hardware
+    evaluation_kits
+    support_tools
+    deployment
+    getting_help
 
