@@ -9,4 +9,4 @@ Test pages below here
     :hidden:
 
     test-compatibility
-    test-uxc-at-commands
+    test-ucx-at-commands
