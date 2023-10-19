@@ -4,7 +4,7 @@ Test
 Test pages below here
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :titlesonly:
     :hidden:
 
