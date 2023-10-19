@@ -1,19 +1,26 @@
-# Testing external image:
+# u-connectXpress
+
+Testing external image:
+
 ![https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png)
 
-# Testing external URL:
+Testing external URL:
+
 [https://www.google.com/](https://www.google.com/)
 
-# Testing external Markdown:
+Testing external Markdown:
+
 [https://github.com/u-blox/ubxlib#apis](https://github.com/u-blox/ubxlib#apis)
 
-# Testing table:
+Testing table:
+
 | Syntax | Description |
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
 
-# Testing code block with syntax highlighting
+Testing code block with syntax highlighting
+
 ```c
 if (foo) {
     # Comment
