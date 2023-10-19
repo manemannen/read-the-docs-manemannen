@@ -18,6 +18,7 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinxcontrib.httpdomain',
+    'myst_parser',
 ]
 
 intersphinx_mapping = {
@@ -29,7 +30,11 @@ intersphinx_disabled_domains = ['std']
 templates_path = ['_templates']
 
 # The suffix of source filenames.
-source_suffix = ".rst"
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'restructuredtext',
+    '.md': 'markdown',
+}
 
 # The master toctree document.
 master_doc = "index"
