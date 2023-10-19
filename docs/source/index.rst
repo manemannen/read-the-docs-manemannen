@@ -15,7 +15,7 @@ u-locate |version| documentation
     support_tools
     deployment
     getting_help
-    ucx-at-commands
+    test
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 

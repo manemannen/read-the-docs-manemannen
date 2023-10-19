@@ -1,4 +1,4 @@
-# u-connectXpress
+# MD compatibility
 
 Testing external image:
 
