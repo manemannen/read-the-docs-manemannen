@@ -1,7 +1,7 @@
 .. _topics-index:
 
 u-locate |version| documentation
-####################################
+########################################################
 
 .. toctree::
     :maxdepth: 2
@@ -17,6 +17,9 @@ u-locate |version| documentation
     getting_help
     test
 
+
+Latest
+********************************************************
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
 enim ad minim veniam, quis nostrud exercitation ullamco laboris 
