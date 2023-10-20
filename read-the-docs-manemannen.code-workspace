@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "read-the-docs-manemannen",
+			"path": "."
+		}
+	],
+	"settings": {
+		"esbonio.sphinx.confDir": ""
+	}
+}

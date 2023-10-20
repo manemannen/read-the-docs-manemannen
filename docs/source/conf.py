@@ -42,6 +42,10 @@ master_doc = "index"
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+# -- Pimping the theme
+style_nav_header_background = 'background: lightblue url("images/u-blox-logo.png") no-repeat fixed left;'
+
+# -- other theme test
 #html_theme = 'groundwork'
 
 # -- Options for EPUB output
