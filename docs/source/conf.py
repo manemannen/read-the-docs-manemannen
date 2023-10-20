@@ -44,7 +44,8 @@ master_doc = "index"
 html_theme = 'sphinx_rtd_theme'
 # -- Pimping the theme
 html_theme_options = {
-    'style_nav_header_background':'lightblue url("images/u-blox-logo.png") no-repeat fixed left;'
+    'style_nav_header_background':'url(images/u-blox-logo.png) no-repeat fixed left;'
+#    'style_nav_header_background':'#FF6E59 url(images/u-blox-logo.png) no-repeat fixed left;'
 }
 
 # -- other theme test
