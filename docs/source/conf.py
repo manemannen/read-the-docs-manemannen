@@ -1,3 +1,5 @@
+import sphinx_nameko_theme
+
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
@@ -41,12 +43,14 @@ master_doc = "index"
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+#html_theme = 'sphinx_rtd_theme'
 # -- Pimping the theme
-html_theme_options = {
-#    'style_nav_header_background':'url(images/u-blox-logo.png) no-repeat fixed left;'
-    'style_nav_header_background':'#FF6E59;'
-}
+#html_theme_options = {
+#    'style_nav_header_background':'#FF6E59;'
+#}
+
+html_theme = 'nameko'
+html_theme_path = [sphinx_nameko_theme.get_html_theme_path()]
 
 # -- other theme test
 #html_theme = 'groundwork'
