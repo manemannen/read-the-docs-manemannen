@@ -1,4 +1,5 @@
-import sphinx_nameko_theme
+# -- uncomment for nameko theme
+# import sphinx_nameko_theme
 
 # Configuration file for the Sphinx documentation builder.
 
