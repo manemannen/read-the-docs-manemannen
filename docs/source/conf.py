@@ -45,17 +45,17 @@ master_doc = "index"
 
 html_theme = 'sphinx_rtd_theme'
 # -- Pimping the theme
-#html_theme_options = {
+# html_theme_options = {
 #    'style_nav_header_background':'#FF6E59;'
-#}
+# }
 
 # -- uncomment for nameko theme. Navigation works badly with current content
-#html_theme = 'nameko'
-#html_theme_path = [sphinx_nameko_theme.get_html_theme_path()]
+# html_theme = 'nameko'
+# html_theme_path = [sphinx_nameko_theme.get_html_theme_path()]
 
 # -- uncomment for groundwork theme. Navigation works badly with current content
 # -- groundwork theme
-#html_theme = 'groundwork'
+# html_theme = 'groundwork'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
